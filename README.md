@@ -1,2 +1,2 @@
-# SICP-GO
-Exploring Structure and Interpretation of Computer Programs with GO
+# sicpGo
+Exploring Structure and Interpretation of Computer Programs with Go
