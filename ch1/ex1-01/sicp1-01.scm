@@ -1,4 +1,4 @@
-;; sicp1.01
+;; sicp 1.01
 
 (display 10)(newline)
 (display (+ 5 3 4))(newline)
