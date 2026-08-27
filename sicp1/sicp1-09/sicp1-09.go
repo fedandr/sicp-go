@@ -1,4 +1,4 @@
-// sicp_1-09
+// sicp1-09
 
 package main
 
