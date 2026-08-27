@@ -1,0 +1,21 @@
+;; sicp-1-13
+
+;; x^2 = x+1 has solutions
+;; phi = (1+sqrt(5))/2 = golden ratio
+;; psi = (1-sqrt(5))/2
+;;
+;; Prove by induction that F_n = (phi^n-psi^n)/sqrt(5)
+;;
+;; BASE:
+;; n = 0 => F_n = 0 = (phi^0-psi^0)/sqrt(5) = (1 - 1)/sqrt(5)
+;; n = 1 => F_n = 1 = (phi^1-psi^1)/sqrt(5) = 2sqrt(5)/2sqrt(5)
+;;
+;; INDUCTION:
+;; let F_k = (phi^n-psi^n)/sqrt(5) for k = 1..n
+;; F_n+1 = F_n + F_n-1 = (phi^n-psi^n+phi^(n-1)-psi^(n-1))/sqrt(5) =
+;; = (phi^(n-1)*(phi+1) - psi^(n-1)*(psi+1))/sqrt(5) =
+;; = (phi^(n-1)*phi^2 - psi^(n-1)*psi^2)/sqrt(5) = (phi^(n+1)-psi^(n+1))/sqrt(5)
+;; CHECK.
+;;
+;; NOTE
+;; psi = -0.6180339887498949, so psi^n --> 0 as n --> inf
