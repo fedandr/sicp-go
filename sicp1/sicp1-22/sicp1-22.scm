@@ -1,4 +1,6 @@
-;; sicp 1.22, Chez Scheme version without (runtime), replaced with (current-time). Another possibility woudl be (real-time).
+;; sicp 1.22, Chez Scheme version without (runtime),
+;; replaced with (current-time) instead.
+;; Another possibility would be (real-time).
 
 (define (square n)
   (* n n))
