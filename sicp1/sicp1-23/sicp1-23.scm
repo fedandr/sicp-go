@@ -19,8 +19,8 @@
 (define (divisor n)
   (let ((z (sqrt n)))
     (if (even? n) 2
-	(do ((j 3 (+ j 2)))
-	((or (= 0 (remainder n j)) (> j z)) (if (> j z) n j))))))
+	    (do ((j 3 (+ j 2)))
+	      ((or (= 0 (remainder n j)) (> j z)) (if (> j z) n j))))))
 
 (define (prime? n)
   ; (= n (smallest-divisor n)))
