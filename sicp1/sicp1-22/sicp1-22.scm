@@ -34,7 +34,7 @@
 
 (define (search-for-primes n m)
   (do ((k (if (odd? n) n (+ n 1)) (+ k 2)))
-      ((> k m) (display "end search") (newline))
+      ((> k m) (newline) (display "end search") (newline))
     (timed-prime-test k)))
 
 (define j 50)
