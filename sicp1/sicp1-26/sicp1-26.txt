@@ -1,0 +1,5 @@
+;; sicp 1.26
+
+;; The difference is that by writing expmod this way,
+;; we get double recursive process instaed of single recursion O(log n).
+;; This double recursion is exponential in (log n), hence O(n).
