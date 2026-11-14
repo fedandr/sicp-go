@@ -1,0 +1,7 @@
+;; sicp 1.25
+
+;; Not exactly, although Alyssa is correct mathematically,
+;; she is not correct from the enineering standpoint.
+;; The trouble is that if we do not reduce modulo m at every step of expmod,
+;; then intermediate powers might get very large (requiring multitude of bits),
+;; which is prohibitive to efficient storage and operation.
